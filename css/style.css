@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 73%;
+    overflow-x: hidden;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+}
+
+
+/*Start of WebSayte stile*/
+
+.navbar{
+    background-color: yellow;
+}
+
+.log{
+    display: none;
+}
+
+i{
+     padding: 8px 0;
+}
+
+.as{
+    display: none;
+}
+
+ul, li, a{
+    color: #000;
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px 30px;
+    letter-spacing: 5px ;
+    text-decoration: none;
+    justify-content: center;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+
+@media  (max-width:768px) {
+
+    html {
+        font-size: 63%;
+    }
+
+    .container {
+        max-width: 768px;
+        margin: auto;
+    }
+
+    ul, li, a {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 5px 15px;
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 375px) {
+
+        html{
+            font-size: 43%;
+        }
+        .container{
+            width: 375px;
+            margin: auto;
+        }
+
+        .as{
+            top: 10px;
+            position: absolute;
+            display: block;
+            font-size: 20px ;
+        }
+
+       .btn-1{
+           left: 5px;
+            color: #eeee;
+       }
+
+          .btn-2{
+              top: 0;
+              transition: all 2s ease;
+              background-color: yellow;
+              font-size: 10px;
+              padding:  5px;
+              left: 150px;
+          }
+
+        .navbar{
+            display: none;
+            position: absolute;
+            width: 150px;
+            height: 100vh;
+
+        }
+
+        .log{
+            display: block;
+            width: 150px;
+        }
+        .brent__log{
+            text-align: center;
+            padding: 10px  0 3px  0px;
+        }
+        span{
+            color: red;
+        }
+        .log p{
+            width: 135px;
+            text-align: center;
+            margin: 5px 0 20px 6px;
+        }
+        ul, li, a{
+            display: block;
+            font-size: 10px;
+            padding: 4px;
+            letter-spacing: 2px ;
+            justify-content: start;
+            border: none;
+        }
+        a:hover{
+            margin: 0 20px;
+            transform: scale(1.1) ;
+        }
+
+}
+/*Start of Home section*/
+
+.container__Media{
+    width: 1400px;
+}
+
+.Home{
+    height: 92vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/home-fon.jpg) center center/cover fixed;
+}
+.div___img__fon{
+    position: relative;
+}
+.img1{
+    width: 1400px;
+    height: 92vh;
+}
+@media (max-width: 375px) {
+
+        .Home{
+        height: 92vh;
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/home-fon.jpg) center center/cover fixed  ;
+        }
+
+        .container__Media{
+         width: 1245px;
+         margin-left: 155px;
+        }
+}
+/*End of Home section*/
+
+
+
+
+/*Start of WebSayte stile*/
